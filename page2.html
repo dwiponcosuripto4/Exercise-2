@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <form onsubmit="kirimData(event)">
+
+</head>
+
+<body>
+    <header>
+        <h1>Page 2</h1>
+    </header>
+
+    <div class="container">
+        <div class="form-container">
+            <form>
+                <div>
+                    <label for="nama">Username</label>
+                    <input type="text" name="nama" id="nama" required>
+                </div>
+
+                <div>
+                    <label for="date">Tanggal</label>
+                    <input type="date" id="start" name="trip-start" value="2023-06-11" min="2018-01-01" max="2023-12-31">
+                </div>
+
+                <div>
+                    <label for="genre">Jenis Senjata</label>
+                    <select name="genre" id="genre" required>
+                        <option value="">Pilih Genre</option>
+                        <option value="AR">AR</option>
+                        <option value="Sniper">Sniper</option>
+                        <option value="SMG">SMG</option>
+                    </select>
+                </div>
+
+                <fieldset name="Dino" id="Dino">
+                    <legend>Pilih Dinosaurusmu:</legend>
+                    <div>
+                        <input type="checkbox" name="dino" id="rex" value="Rex">
+                        <label for="rex">Rex</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="dino" id="pterosaurus" value="Pterosaurus">
+                        <label for="pterosaurus">Pterosaurus</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="dino" id="velociraptor" value="Velociraptor">
+                        <label for="velociraptor">Velociraptor</label>
+                    </div>
+                </fieldset>
+                
+
+                <div>
+                    <label>Masukan untuk event ini</label><br>
+                    <textarea placeholder="Tulis disini"></textarea><br><br>
+                </div>
+                
+                <div>
+                    <label for="message">Masukan untuk event kedepannya</label>
+                    <textarea name="message" required></textarea>
+                </div>
+
+                <div>
+                    <button type="submit" onclick="kirimData()">Kirim</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

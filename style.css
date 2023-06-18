@@ -1,0 +1,117 @@
+html {
+    background-image: url(https://cdn-brilio-net.akamaized.net/news/2023/06/01/257198/750xauto-tretan-muslim-tantang-para-influencer-pubg-mobile-bertarung-di-dinoground-2306015.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Teko', sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 80px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(236, 197, 0);
+}
+
+video,
+img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #eedb0b;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.volume-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.survey-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f0d400;
+    color: #000000;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-container input:not([type="checkbox"]),
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label,
+legend {
+    color: white;
+}
+
+.form-container fieldset {
+    margin-bottom: 10px;
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f0d400;
+    color: #000000;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
